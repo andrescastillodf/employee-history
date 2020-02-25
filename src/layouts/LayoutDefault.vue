@@ -1,11 +1,11 @@
 <template>
   <div class="LayoutDefault">
-    Header - default
+    <!-- Header - default -->
     <main class="LayoutDefault__main">
       <slot />
     </main>
     <footer class="LayoutDefault__footer">
-      &copy; Footer
+      <!-- &copy; Footer -->
     </footer>
   </div>
 </template>

@@ -22,8 +22,6 @@ export default {
         require([`../layouts/${activeLayout}.vue`], resolve);
       });
     }
-    // eslint-disable-next-line no-console
-    console.log({ ...Vue.options.components });
     this.$parent.$emit("update:layout", activeLayout);
   },
   render() {

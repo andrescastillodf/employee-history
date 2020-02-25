@@ -13,12 +13,6 @@ export default {
     return {
       layout: this.$system_config.layoutDefault
     };
-  },
-  watch: {
-    layout() {
-      // eslint-disable-next-line no-console
-      console.log("layout watcher changed ", this.layout);
-    }
   }
 };
 </script>

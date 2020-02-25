@@ -9,6 +9,7 @@
     <main class="Layout__error">
       <slot />
     </main>
+
     <br />
     <footer class="Layout__footer">
       &copy; Error Footer
